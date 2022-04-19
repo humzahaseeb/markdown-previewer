@@ -1,9 +1,14 @@
 import React from "react";
+import Editor from "./components/Editor";
+import Heading from "./components/Heading";
+import Preview from "./components/Preview";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Heading />
+      <Editor />
+      <Preview />
     </div>
   );
 }
